@@ -2,12 +2,15 @@ package com.fokbees.client;
 
 import com.fokbees.client.commands.CommandChunks;
 import com.fokbees.client.commands.CommandClearChat;
+import com.fokbees.client.commands.CommandCloseMinecraft;
+import com.fokbees.client.commands.CommandF3Help;
 import com.fokbees.client.commands.CommandFullScreen;
 import com.fokbees.client.commands.CommandHitboxes;
 import com.fokbees.client.commands.CommandReloadResources;
 import com.fokbees.client.commands.CommandScreenshot;
 import com.fokbees.client.commands.CommandTooltips;
 
+import net.minecraft.client.gui.GuiMainMenu;
 import net.minecraft.command.CommandHandler;
 import net.minecraft.command.CommandParticle;
 import net.minecraft.command.CommandPlaySound;
@@ -26,5 +29,7 @@ public class CommandReg {
 		ClientCommandHandler.instance.registerCommand(new CommandClearChat());
 		ClientCommandHandler.instance.registerCommand(new CommandHitboxes());
 		ClientCommandHandler.instance.registerCommand(new CommandChunks());
-	}
+		ClientCommandHandler.instance.registerCommand(new CommandF3Help());
+		ClientCommandHandler.instance.registerCommand(new CommandCloseMinecraft());
+	} 
 }

@@ -12,13 +12,11 @@ public class CommandClearChat extends CommandTreeBase implements IClientCommand 
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "clear-chat";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Used to clear chat.";
 	}
 
@@ -35,7 +33,6 @@ public class CommandClearChat extends CommandTreeBase implements IClientCommand 
 	
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 	

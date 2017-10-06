@@ -14,13 +14,11 @@ public class CommandTooltips extends CommandTreeBase implements IClientCommand  
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "tooltips";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Toggles tooltops on and off.";
 	}
 
@@ -36,7 +34,6 @@ public class CommandTooltips extends CommandTreeBase implements IClientCommand  
 
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

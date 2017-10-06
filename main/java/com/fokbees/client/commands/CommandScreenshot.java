@@ -22,13 +22,11 @@ public class CommandScreenshot extends CommandTreeBase implements IClientCommand
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "screenshot";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Used to save a screenshot without the use of: "+ Minecraft.getMinecraft().gameSettings.keyBindScreenshot;
 	}
 
@@ -42,7 +40,6 @@ public class CommandScreenshot extends CommandTreeBase implements IClientCommand
 	
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 	

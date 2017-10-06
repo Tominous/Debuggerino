@@ -13,13 +13,11 @@ public class CommandFullScreen extends CommandTreeBase implements IClientCommand
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "fullscreen";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Toggles Fullscreen on and off.";
 	}
 
@@ -33,7 +31,6 @@ public class CommandFullScreen extends CommandTreeBase implements IClientCommand
 
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

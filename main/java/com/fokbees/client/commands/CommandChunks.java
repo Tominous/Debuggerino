@@ -13,13 +13,11 @@ public class CommandChunks extends CommandTreeBase implements IClientCommand {
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "reload-chunks";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Reloads chunks";
 	}
 
@@ -34,7 +32,6 @@ public class CommandChunks extends CommandTreeBase implements IClientCommand {
 	
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 	

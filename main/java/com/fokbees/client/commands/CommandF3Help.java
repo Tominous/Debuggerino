@@ -14,13 +14,11 @@ public class CommandF3Help extends CommandTreeBase implements IClientCommand {
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "F3-Help";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Display Vanilla F3 Help.";
 	}
 
@@ -45,7 +43,6 @@ public class CommandF3Help extends CommandTreeBase implements IClientCommand {
 	
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 	

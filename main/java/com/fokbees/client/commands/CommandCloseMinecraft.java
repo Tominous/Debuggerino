@@ -13,13 +13,11 @@ public class CommandCloseMinecraft extends CommandTreeBase implements IClientCom
 	
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
 		return "quit";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
-		// TODO Auto-generated method stub
 		return "Close MC";
 	}
 
@@ -33,7 +31,6 @@ public class CommandCloseMinecraft extends CommandTreeBase implements IClientCom
 	
 	@Override
 	public boolean allowUsageWithoutPrefix(ICommandSender sender, String message) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 	

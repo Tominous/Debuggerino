@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = DebugPlus.MODID, version = DebugPlus.VERSION)
+@Mod(modid = DebugPlus.MODID, version = DebugPlus.VERSION, clientSideOnly = true)
 public class DebugPlus
 {
     public static final String MODID = "debugplus";

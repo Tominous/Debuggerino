@@ -1,7 +1,7 @@
 [
 {
-  "modid": "debugplus",
-  "name": "Debug+",
+  "modid": "debuggerino",
+  "name": "Debuggerino",
   "description": "Turns normal vanilla functions into commands",
   "version": "1.1",
   "mcversion": "Whatever you're playing on right now.",
